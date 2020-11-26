@@ -1,0 +1,11 @@
+A B C E F
+8 8 4
+A B A C
+A B E F B B A F
+A B B C B E E B
+A B A B B A A C
+F E B C F A B B
+C E C B C B B A
+A C A E C A C E
+F C E E C C C F
+A A A B A C B C

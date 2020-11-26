@@ -1,0 +1,15 @@
+C E G H K
+12 12 6
+K H G K H G
+C C H C K H G K H G G G
+C C K H G H H K K K G H
+C H E H G K E C C G G K
+E C H E E G K C H C H C
+C K E K E H H H E C H E
+G G E E K K C K C K C C
+K K K E H G K G G H E E
+H G H K C H G E C G G C
+K G E E G K E C K G C K
+K K G C K E K E E E E E
+C G H H C K K C H K E H
+C G K C H H C G K H G E

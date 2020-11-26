@@ -1,0 +1,1 @@
+k=open("kai.txt","w")
