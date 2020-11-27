@@ -66,4 +66,4 @@ def prob_read(file):
 
     
 # prob_read("q3.txt")
-reduc_sat2ver("q3.txt")
+reduc_sat2ver("3.3.txt")

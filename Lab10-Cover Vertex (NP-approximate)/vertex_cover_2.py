@@ -34,4 +34,4 @@ def read_graph(file):
             index+=1
     return (graph)
 
-ver_cov_app("q2.txt")
+ver_cov_app("2.4.txt")
