@@ -6,12 +6,17 @@ def reduc_sat2ver(filename):
     val_lst=[i for i in list(graph.keys()) if len(i.split("_"))==1]
     indx_dict={}
     cnt_indx=0
-    for i in val_lst:
-        indx_dict[i]=cnt_indx
-        cnt_indx+=1
+    int_lst=list(map(int,val_lst))
+    for i in int_lst:
+        if (i>0):
+            indx_dict[str(i)]=cnt_indx
+            cnt_indx+=1
+            indx_dict[str(i*-1)]=cnt_indx
+            cnt_indx+=1
     for j in clas_lst:
-        indx_dict[j]=cnt_indx
+        indx_dict[str(j)]=cnt_indx
         cnt_indx+=1
+        print(indx_dict)
     res=[]
     for i in range(k):
         res.append([0]*k)
@@ -56,8 +61,7 @@ def prob_read(file):
             graph[str(claus[2])].append(str(str(indx_claus)+"_"+str(claus[2])))
             indx_claus+=1
         k=var_num*2+indx_claus*3
-        K=var_num+indx_claus*3
-        print (list(graph.keys()))
+        K=var_num+indx_claus*2
         return (graph,k,K,claus_num)
 
     
